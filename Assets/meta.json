@@ -7,8 +7,8 @@
   "overview": "Easily add YouTube Media",
   "owner": "AECX",
   "targetAbi": "10.8.1.0",
-  "timestamp": "2025-10-29T16:45:00.0000000Z",
-  "version": "1.1.0.3",
+  "timestamp": "2025-10-29T18:01:00.0000000Z",
+  "version": "1.1.0.4",
   "status": "Active",
   "autoUpdate": false,
   "imagePath": "/var/lib/jellyfin/plugins/TubeFin/logo.png"

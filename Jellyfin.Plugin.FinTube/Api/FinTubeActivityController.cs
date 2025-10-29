@@ -97,7 +97,7 @@ public class FinTubeActivityController : ControllerBase
 
                     // Save file with ytdlp as mp4 or mp3 depending on audioonly and free format preference
                     String targetFilename;
-                    String targetExtension = (data.preferfreeformat ? (data.audioonly ? @".opus" : @".webm") : (data.audioonly ? @".mp3" : @".mp4"));
+                    String targetExtension = (data.preferfreeformat ? (data.audioonly ? @".ogg" : @".webm") : (data.audioonly ? @".mp3" : @".mp4"));
 
                     if (!String.IsNullOrWhiteSpace(data.targetfilename))
                         targetFilename = System.IO.Path.Combine(targetPath, $"{data.targetfilename}");
@@ -117,7 +117,7 @@ public class FinTubeActivityController : ControllerBase
                     {
                         args = "-x";
                         if(data.preferfreeformat)
-                            args += " --prefer-free-format";
+                            args += " --audio-format vorbis";
                         else
                             args += " --audio-format mp3";
                         args += $" -o \"{targetFilename}.%(ext)s\" -- {data.ytid}";

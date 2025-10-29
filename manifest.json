@@ -14,7 +14,7 @@
                 "targetAbi": "10.8.10.0",
                 "sourceUrl": "https://github.com/vincentroyc/FinTube/releases/download/release%2F1.1.0.3/Jellyfin.Plugin.FinTube.zip",
                 "checksum": "4032226cf8ed47a7991ad9b3693c0be6",
-                "timestamp": "2025-10-29T16:45:0Z"
+                "timestamp": "2025-10-29T16:45:00Z"
             },
             {
                 "version": "1.1.0.2",

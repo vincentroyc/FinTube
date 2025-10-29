@@ -9,13 +9,21 @@
         "imageUrl": "https://raw.githubusercontent.com/AECX/FinTube/master/Assets/logo.png",
           "versions": [
             {
+                "version": "1.1.0.2",
+                "changelog": "Fix yt-dlp command build",
+                "targetAbi": "10.8.10.0",
+                "sourceUrl": "https://github.com/vincentroyc/FinTube/releases/download/release%2F1.1.0.2/Jellyfin.Plugin.FinTube.zip",
+                "checksum": "64b1d9ffc5c832fc2ef38a594c50955e",
+                "timestamp": "2025-10-28T21:23:30Z"
+            },
+            {
                 "version": "1.1.0.1",
                 "changelog": "Fix yt-dlp command build",
                 "targetAbi": "10.8.10.0",
                 "sourceUrl": "https://github.com/vincentroyc/FinTube/releases/download/release%2F1.1.0.1/Jellyfin.Plugin.FinTube.zip",
                 "checksum": "710c7214491dde5fb228429d9e98a9e0",
-                "timestamp": "2025-09-23T07:13:30Z"
-              },
+                "timestamp": "2025-10-28T20:20:30Z"
+            },
             {
               "version": "1.1.0.0",
               "changelog": "Added possibility to provide a custom filename",
